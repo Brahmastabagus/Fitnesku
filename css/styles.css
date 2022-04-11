@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .myButton {
     padding: 15px 40px;
     border: none;
@@ -22,7 +26,8 @@ body {
 }
 
 h1,
-p {
+p,
+h3 {
     margin: 0;
     padding: 0;
 }
@@ -79,8 +84,14 @@ a {
 
 /* NAV */
 
+.navActive {
+    color: #1568E4 !important;
+    font-weight: bold;
+}
+
 .navigasi a {
     margin-right: 40px;
+    color: #383838;
 }
 
 .navigasi {
@@ -211,60 +222,163 @@ a {
     margin-bottom: 20px;
 }
 
-/* FOOTER */
-/* .footer {
-    background-image: url("../asssets/bgFooter.png");
-    height: 363px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 135px;
+/* INFO */
+
+.info .content img {
+    margin-right: 20px;
 }
 
-.footer .mapouter {
-    position: relative;
-    text-align: right;
-    height: 203px;
-    width: 203px;
+.info .content {
+    border: solid 1px #E0E0E0;
+    padding: 35px 50px;
     border-radius: 4px;
 }
 
-.footer .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 203px;
-    width: 203px;
-    border-radius: 4px;
+/* PROGRAMS */
+.programs .cardz-wrapper p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 30px;
 }
 
-.footer .title {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    color: #41474C;
-}
-
-.footer .subMenu {
-    line-height: 28px;
-    font-size: 15px;
-    color: #7A7E82;
-    margin-bottom: 16px;
-    padding-right: 70px;
-}
-
-.footer .footnote {
-    font-size: 15px;
-    font-weight: 700;
-    color: #6E6E6E;
+.programs {
     text-align: center;
-    margin-top: 60px;
+    padding-top: 150px;
 }
 
-.footer .menu {
-    width: 210px;
+.programs h1 {
+    font-size: 35px;
 }
 
-.footer .content {
-    margin-top: 70px;
-    padding-bottom: 135px;
-} */
+.programs .content {
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.programs .content2 .cardz-wrapper {
+    border-radius: 4px;
+    padding: 40px 30px;
+    width: 27%;
+    border: solid 1px #E0E0E0;
+}
+
+.programs h3 {
+    margin: 15px 0;
+}
+
+/* REASON */
+.reason {
+    padding-top: 150px;
+}
+
+.reason img {
+    margin-right: 10px;
+}
+
+.reason .checklist {
+    margin-top: 20px;
+}
+
+.reason h1 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.reason .checklistWrapper {
+    margin-left: 100px;
+}
+
+/* MEMBER */
+
+.members .content {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.members {
+    padding-top: 150px;
+}
+
+.members h1 {
+    font-size: 35px !important;
+    margin-bottom: 20px;
+}
+
+.members h3 {
+    margin-top: 20px;
+}
+
+.members .checklist {
+    margin-bottom: 15px;
+}
+
+.members .cardz-wrapper {
+    border-radius: 4px;
+    padding: 40px 50px;
+    width: 23%;
+    border: solid 1px #E0E0E0;
+}
+
+.members .checklist img {
+    margin-right: 20px;
+}
+
+.members button {
+    margin-top: 40px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: blue;
+}
+
+.members .hr {
+    height: 2px;
+    margin: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 50%;
+    background: #E0E0E0;
+    text-align: center;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+    margin-left: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 150px;
+    /* background: #061c3e; */
+    background-image: url('../asssets/imgSub.png');
+    padding: 70px 0;
+    text-align: center;
+}
+
+.subscribe h1 {
+    color: white;
+    font-size: 35px !important;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    color: white;
+}
+
+
+.subscribe input {
+    padding: 15px 40px 15px 20px;
+}
+
+.subscribe button {
+    margin-top: 50px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    color: #1568E4;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(244, 244, 244);
+}
