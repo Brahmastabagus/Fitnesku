@@ -382,3 +382,110 @@ a {
     font-weight: bold;
     background: rgb(244, 244, 244);
 }
+
+/* About Us */
+
+.kontenH, .kontenK{
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px black;
+    padding: 40px;
+}
+
+.inbox, inbox2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.isiPesan{
+    width: 100px;
+    height: 100px;
+}
+
+.usubs{
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.inbox22{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.inbox4{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contact .kontakcs{
+    border: solid 1px #C3C3C3;
+    padding: 40px;
+    margin-top: 10px;
+    width: 820px;
+}
+
+.contact input{
+    width: 370px;
+    height: 50px;
+    background-color: #F5F5F5;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contact .sub{
+    background-color: #F5F5F5;
+    padding: 13px 32px;
+    margin-top: 10px;
+    margin-bottom: 63px;
+}
+
+.contact textarea{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contact .bold{
+    font-weight: bold;
+}
+
+.contact judul2{
+    font-weight: bold;
+}
+
+.contact .email{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact .content2{
+    margin-left: 20px;
+    width: 400px;
+    height: 442px;
+}
+
+.contact .content2 h4{
+    margin: 0px;
+    
+}
+
+.contact .sosmed{
+    border: solid 1px #C3C3C3;
+    margin-top: 10px;
+}
+
+.contact .content2 img{
+    margin-right: 15px;
+}
+
+.contact{
+    margin-top: 70px;
+}
