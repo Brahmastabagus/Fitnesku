@@ -1,10 +1,10 @@
 /* GLOBAL */
-
 .container {
     width: 90%;
     margin: auto;
 }
-.myButton{
+
+.myButton {
     padding: 15px 40px;
     border: none;
     border-radius: 4px;
@@ -14,52 +14,76 @@
     background: blue;
 }
 
-body{
+body {
     font-family: 'Poppins';
     padding: 0;
     margin: 0;
+    margin-bottom: 2000px !important;
 }
 
-h1, p {
+h1,
+p {
     margin: 0;
     padding: 0;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.align-items-center{
+.align-items-center {
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.justify-content-between{
+.justify-content-between {
     justify-content: space-between;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.justify-content-around{
+.justify-content-around {
     justify-content: space-around;
 }
 
-.justify-content-between{
+.justify-content-between {
     justify-content: space-between;
+}
+
+.hero {
+    background-image: url("../asssets/bgAboutUs.jpg");
+    height: 367px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.heroTitle {
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px !important;
 }
 
 /* NAV */
 
-.navigasi a{
+.navigasi a {
     margin-right: 40px;
 }
 
-.navigasi{
+.navigasi {
     /* background: rgba(0, 0, 0, .2); */
     padding-top: 30px;
     padding-bottom: 30px;
@@ -67,20 +91,180 @@ a{
 
 /* HEADER */
 
-.header{
+.header {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.header h1{
+.header h1 {
     font-size: 65px;
     font-weight: 600;
 }
 
-.header p{
+.header p {
     line-height: 30px;
 }
 
-.header button{
+.header button {
     margin-top: 40px;
 }
+
+/* about us */
+.descAboutUs {
+    padding-top: 70px;
+}
+
+.descAboutUs .subTitle {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.descAboutUs .desc {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+/* Trainers */
+.trainers {
+    padding-top: 70px;
+}
+
+.trainers .cardTrainers {
+    margin-bottom: 20px;
+    padding: 26px;
+    border: 1px;
+    width: 340px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-radius: 4px;
+}
+
+.trainers .cardTrainerProfile {
+    margin-bottom: 42px;
+}
+
+.trainers .subTitle {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.trainers .cardTrainerProfileTitle {
+    margin-left: 16px;
+}
+
+.trainers .cardTrainerProfileTitle .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trainers .cardTrainerProfileTitle .medal {
+    font-size: 18px;
+    font-weight: 500;
+    color: #C3C3C3;
+}
+
+.trainers .cardTrainerInfo {
+    margin-bottom: 40px;
+}
+
+.trainers .info .title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.trainers .info .desc {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.trainers .btnDetails {
+    padding: 14px 100px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: blue;
+    border-radius: 4px;
+}
+
+
+/* Galeries */
+.galeries {
+    padding-top: 70px;
+}
+
+.galeries .kegiatan {
+    width: 295px;
+    height: 295px;
+}
+
+.galeries .subTitle {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.galeries .card {
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+/* .footer {
+    background-image: url("../asssets/bgFooter.png");
+    height: 363px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 135px;
+}
+
+.footer .mapouter {
+    position: relative;
+    text-align: right;
+    height: 203px;
+    width: 203px;
+    border-radius: 4px;
+}
+
+.footer .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 203px;
+    width: 203px;
+    border-radius: 4px;
+}
+
+.footer .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #41474C;
+}
+
+.footer .subMenu {
+    line-height: 28px;
+    font-size: 15px;
+    color: #7A7E82;
+    margin-bottom: 16px;
+    padding-right: 70px;
+}
+
+.footer .footnote {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6E6E6E;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer .menu {
+    width: 210px;
+}
+
+.footer .content {
+    margin-top: 70px;
+    padding-bottom: 135px;
+} */
