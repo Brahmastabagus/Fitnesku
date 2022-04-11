@@ -4,6 +4,11 @@
     width: 90%;
     margin: auto;
 }
+
+.text-center{
+    text-align: center;
+}
+
 .myButton{
     padding: 15px 40px;
     border: none;
@@ -18,9 +23,10 @@ body{
     font-family: 'Poppins';
     padding: 0;
     margin: 0;
+    margin-bottom: 2000px !important;
 }
 
-h1, p {
+h1, p, h3 {
     margin: 0;
     padding: 0;
 }
@@ -55,8 +61,14 @@ a{
 
 /* NAV */
 
+.navActive{
+    color: #1568E4 !important;
+    font-weight: bold;
+}
+
 .navigasi a{
     margin-right: 40px;
+    color: #383838;
 }
 
 .navigasi{
@@ -83,4 +95,165 @@ a{
 
 .header button{
     margin-top: 40px;
+}
+
+
+/* INFO */
+
+.info .content img{
+    margin-right: 20px;
+}
+
+.info .content{
+    border: solid 1px #E0E0E0;
+    padding: 35px 50px;
+    border-radius: 4px;
+}
+
+/* PROGRAMS */
+.programs .cardz-wrapper p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.programs{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.programs h1{
+    font-size: 35px;  
+}
+
+.programs .content{
+    margin-bottom: 70px;  
+    justify-content: space-between;
+}
+
+.programs .content2 .cardz-wrapper{
+    border-radius: 4px;
+    padding: 40px 30px;
+    width: 27%;
+    border: solid 1px #E0E0E0;
+}
+
+.programs h3{
+    margin: 15px 0;
+}
+
+/* REASON */
+.reason{
+    padding-top: 150px;
+}
+
+.reason img{
+    margin-right: 10px;
+}
+
+.reason .checklist{
+    margin-top: 20px;
+}
+
+.reason h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.reason .checklistWrapper{
+    margin-left: 100px;
+}
+
+/* MEMBER */
+
+.members .content{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.members{
+    padding-top: 150px;
+}
+
+.members h1{
+    font-size: 35px !important;
+    margin-bottom: 20px;
+}
+
+.members h3{
+    margin-top: 20px;
+}
+
+.members .checklist{
+    margin-bottom: 15px;
+}
+
+.members .cardz-wrapper{
+    border-radius: 4px;
+    padding: 40px 50px;
+    width: 23%;
+    border: solid 1px #E0E0E0;
+}
+
+.members .checklist img{
+    margin-right: 20px;
+}
+
+.members button{
+    margin-top: 40px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: blue;
+}
+
+.members .hr{
+    height: 2px;
+    margin: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 50%;
+    background:#E0E0E0;
+    text-align: center;
+}
+
+/* SUBSCRIBE */
+
+.subscribe{
+    margin-left: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 150px;
+    /* background: #061c3e; */
+    background-image: url('../asssets/imgSub.png');
+    padding: 70px 0;
+    text-align: center;
+}
+
+.subscribe h1{
+    color: white;
+    font-size: 35px !important;
+    margin-bottom: 20px;
+}
+
+.subscribe p{
+    color: white;
+}
+
+
+.subscribe input{
+    padding: 15px 40px 15px 20px;
+}
+
+.subscribe button{
+    margin-top: 50px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    color: #1568E4;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(244, 244, 244);
 }
