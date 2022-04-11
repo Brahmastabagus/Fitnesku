@@ -355,75 +355,6 @@ a {
 .members button {
     margin-top: 40px;
 }
-
-<<<<<<< HEAD
-/* FOOTER */
-.footer{
-    background-image: url("../asssets/bgFooter.png");
-    height: 363px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 135px;
-  
-    
-}
-.footer .title{
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    color:  #41474C;
-}
-
-.title .p1{
-    font-size: 15px;
-    line-height: 20px;
-}
-.footer .about{
-    width: 210px;
-    margin-bottom: 24px;
-}
-.footer .mapouter{
-    position:relative;
-    text-align:right;
-    height:203px;
-    width:203px;
-}
-
-.footer .gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:203px;
-    width:203px;
-    border-radius: 4px;
-}
-
-.footer .content{
-    margin-top: 70px;
-}
-.footer .poci{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700px; 
-    color: #6E6E6E;  
-    margin-top: 100px;
-}
-.footer .line{
-    line-height: 28px;
-    color: #7A7E82;
-}
-.footer .line1{
-    line-height: 28px;
-    color: #7A7E82;
-    margin-bottom: 10px;
-}
-
-
-
-    
-
-
-=======
 /* NUTRITION */
 /* .main {
     margin-top: 50px;
@@ -677,4 +608,65 @@ a {
 .contact{
     margin-top: 70px;
 }
->>>>>>> 44498a209341cc4f724e88782208013276e728ba
+
+/* FOOTER */
+.footer{
+    background-image: url("../asssets/bgFooter.png");
+    height: 363px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 135px;
+  
+    
+}
+.footer .title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color:  #41474C;
+}
+
+.title .p1{
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer .about{
+    width: 210px;
+    margin-bottom: 24px;
+}
+.footer .mapouter{
+    position:relative;
+    text-align:right;
+    height:203px;
+    width:203px;
+}
+
+.footer .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:203px;
+    width:203px;
+    border-radius: 4px;
+}
+
+.footer .content{
+    margin-top: 70px;
+}
+.footer .poci{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700px; 
+    color: #6E6E6E;  
+    margin-top: 50px;
+}
+.footer .line{
+    line-height: 28px;
+    color: #7A7E82;
+}
+.footer .line1{
+    line-height: 28px;
+    color: #7A7E82;
+    margin-bottom: 10px;
+}
+
