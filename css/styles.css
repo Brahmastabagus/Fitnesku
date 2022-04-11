@@ -1,5 +1,33 @@
 /* GLOBAL */
 
+:root {
+    --blue: #1568E4;
+    --black: #383838;
+    --gray: #F3f3f3;
+    --bg: #c3c3c3;
+    --stroke: #E0E0E0;
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+.color-gray {
+    color: var(--bg);
+}
+
+.color-stroke {
+    color: var(--stroke);
+}
+
+.text-center {
+    text-align: center;
+}
+
 .container {
     width: 90%;
     margin: auto;
@@ -84,3 +112,58 @@ a{
 .header button{
     margin-top: 40px;
 }
+/* Clasess */
+
+.head .container {
+    background-color: var(--gray);
+    height: 240px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.head h1 {
+    font-size: 55px;
+    margin-bottom: 100px;
+}
+
+.head .nav-list a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.head .nav-list a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+/* Main */
+
+.main-list {
+    margin-top: 50px;
+}
+
+.container .card {
+    width: 295px;
+    border: 1px solid var(--bg);
+    border-radius: 5px;
+}
+
+.card img {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card :not(img, span) {
+    margin-left: 20px;
+}
+
+.card h4 {
+    text-align: left;
+}
+
+.card p {
+    margin-top: -15px;
+}
+
+/* End Clasess */
