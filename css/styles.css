@@ -84,3 +84,53 @@ a{
 .header button{
     margin-top: 40px;
 }
+
+/* NUTRITION */
+/* .main {
+    margin-top: 50px;
+} */
+ 
+.container .card {
+    width: 295px;
+    height: 470px;
+    border: 1px solid black;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+.card img {
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.color-blue {
+    color: blue;
+}
+ 
+/* .card img {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+} */
+ 
+/* .card :not(img, span) {
+    margin-left: 20px;
+} */
+ 
+/* .card h4 {
+    text-align: left;
+} */
+ 
+/* .card p {
+    margin-top: -15px;
+    font-size: 12px;
+} */
+
+/* .color-blue{
+    color: #1568E4;
+} */
+ 
