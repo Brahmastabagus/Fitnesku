@@ -3,9 +3,10 @@
 :root {
     --blue: #1568E4;
     --black: #383838;
-    --gray: #F3f3f3;
-    --bg: #c3c3c3;
+    --gray: #d8d8d8;
+    --bg: #03060E;
     --stroke: #E0E0E0;
+    --white: #ffffff;
 }
 
 .color-black {
@@ -44,14 +45,22 @@
     color: white;
     font-size: 18px;
     font-weight: bold;
-    background: blue;
+    background: #162EFF;
+    transition: .3s;
+}
+
+.myButton:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #1568E4;
+    transition: .3s;
+    transform: translateY(-5px);
 }
 
 body {
     font-family: 'Poppins';
     padding: 0;
     margin: 0;
-    margin-bottom: 2000px !important;
 }
 
 h1,
@@ -120,10 +129,18 @@ a {
 
 .navigasi a {
     margin-right: 40px;
-    color: #383838;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.navigasi a:hover{
+    color: var(--blue);
+    transform: translateY(-5px);
+    transition: .3s;
 }
 
 .navigasi {
+    background: var(--bg);
     /* background: rgba(0, 0, 0, .2); */
     padding-top: 30px;
     padding-bottom: 30px;
@@ -132,16 +149,24 @@ a {
 /* HEADER */
 
 .header {
+    background: var(--bg);
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .header h1 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 600;
+    color: white;
+}
+
+.header span{
+    color: var(--blue);
 }
 
 .header p {
+    color: #d8d8d8;
+    margin-top: 20px;
     line-height: 30px;
 }
 
@@ -252,13 +277,26 @@ a {
 }
 
 /* INFO */
+.info{
+    background: var(--bg);
+}
+
+.info p{
+    color: var(--gray);
+}
+
+.info h3{
+    color: white;
+}
 
 .info .content img {
     margin-right: 20px;
 }
 
 .info .content {
-    border: solid 1px #E0E0E0;
+    /* border: solid 1px #E0E0E0; */
+    /* background: rgba(255, 255, 255, 0.156); */
+    background: #050A18;
     padding: 35px 50px;
     border-radius: 4px;
 }
@@ -270,9 +308,26 @@ a {
     line-height: 30px;
 }
 
+.programs .cardz-wrapper:hover{
+    transition: .3s;
+    cursor: pointer;
+    background: #050A18;
+    border-top: var(--blue) 10px solid !important;
+}
+
+.programs .content2 .cardz-wrapper {
+    border-radius: 4px;
+    padding: 40px 30px;
+    width: 27%;
+    border-top: #050A18 10px solid;
+    transition: .3s;
+}
+
 .programs {
+    background: var(--bg);
     text-align: center;
     padding-top: 150px;
+    color: white;
 }
 
 .programs h1 {
@@ -284,19 +339,24 @@ a {
     justify-content: space-between;
 }
 
-.programs .content2 .cardz-wrapper {
-    border-radius: 4px;
-    padding: 40px 30px;
-    width: 27%;
-    border: solid 1px #E0E0E0;
-}
+
 
 .programs h3 {
+    color: white;
     margin: 15px 0;
+}
+
+.programs p{
+    color: var(--gray);
+}
+
+.programs a{
+    color: var(--blue);
 }
 
 /* REASON */
 .reason {
+    background: var(--bg);
     padding-top: 150px;
 }
 
@@ -309,8 +369,13 @@ a {
 }
 
 .reason h1 {
+    color: white;
     font-size: 35px;
     margin-bottom: 40px;
+}
+
+.reason p{
+    color: var(--gray);
 }
 
 .reason .checklistWrapper {
@@ -325,16 +390,24 @@ a {
 }
 
 .members {
+    background: var(--bg);
     padding-top: 150px;
+    padding-bottom: 250px;
 }
 
 .members h1 {
     font-size: 35px !important;
     margin-bottom: 20px;
+    color: white;
+}
+
+.members p{
+    color: var(--gray);
 }
 
 .members h3 {
     margin-top: 20px;
+    color: white;
 }
 
 .members .checklist {
@@ -345,7 +418,13 @@ a {
     border-radius: 4px;
     padding: 40px 50px;
     width: 23%;
-    border: solid 1px #E0E0E0;
+    transition: .3s;
+}
+
+.members .cardz-wrapper:hover {
+    cursor: pointer;
+    border-top: var(--blue) 10px solid !important;
+    transition: .3s;
 }
 
 .members .checklist img {
@@ -356,29 +435,40 @@ a {
     margin-top: 40px;
 }
 /* NUTRITION */
-/* .main {
-    margin-top: 50px;
-} */
- .Nutrion h3{
-     margin-top: 70px;
-     margin-bottom: 40px;
- }
+
+.Nutrion h3{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.Nutrion h4{
+    margin-top: 25px !important;
+}
 
 .Nutrion .container .card {
-    width: 295px;
-    height: 470px;
-    border: 1px solid black;
-    padding-left: 20px;
-    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    width: 310px;
+}
+
+.Nutrion .cardHeader{
+    padding: 10px;
+    padding-bottom: 0 !important;
+}
+
+.Nutrion .cardBody{
+    padding-top: 0  !important;
+    padding: 20px;
 }
 
 .Nutrion .card p {
     margin-top: 20px;
+    color: #383838;
+    margin-bottom: 20px !important;
 }
 
 .Nutrion .card img {
-    margin-left: -10px;
-    margin-top: 10px;
+    width: 100%;
 }
 
 .color-blue {
@@ -467,24 +557,25 @@ a {
 /* SUBSCRIBE */
 
 .subscribe {
-    margin-left: 20px;
+    margin-top: -100px;
     border-radius: 4px;
-    margin-right: 20px;
-    margin-top: 150px;
-    /* background: #061c3e; */
-    background-image: url('../asssets/imgSub.png');
     padding: 70px 0;
-    text-align: center;
+    background: #050A18;
 }
 
 .subscribe h1 {
     color: white;
     font-size: 35px !important;
     margin-bottom: 20px;
+    line-height: 60px;
 }
 
 .subscribe p {
-    color: white;
+    color: var(--gray);
+}
+
+.subscribe img{
+    margin-right: 50px;
 }
 
 
@@ -493,14 +584,7 @@ a {
 }
 
 .subscribe button {
-    margin-top: 50px;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 4px;
-    color: #1568E4;
-    font-size: 18px;
-    font-weight: bold;
-    background: rgb(244, 244, 244);
+    margin-top: 30px;
 }
 
 /* About Us */
@@ -611,14 +695,11 @@ a {
 
 /* FOOTER */
 .footer{
-    background-image: url("../asssets/bgFooter.png");
-    height: 363px;
+    background: var(--bg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
-    padding-bottom: 135px;
-  
-    
+    padding-bottom: 100px;
 }
 .footer .title{
     font-size: 18px;
