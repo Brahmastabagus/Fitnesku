@@ -231,6 +231,7 @@ a {
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 700;
+    color: white;
 }
 
 .descAboutUs .desc {
@@ -719,7 +720,7 @@ a {
 }
 .contact input{
     height: 48px;
-    width: 345px;
+    width: 315px;
     outline: var(--blue);
     border: none;
     padding-left: 20px;
@@ -733,7 +734,7 @@ a {
 
 .contact .radio{
     background: var(--cardActive);
-    padding: 15px 33px;
+    padding: 14px 26px;
     border-radius: 4px;
 }
 
