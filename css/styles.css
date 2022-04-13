@@ -5,6 +5,8 @@
     --black: #383838;
     --gray: #d8d8d8;
     --bg: #03060E;
+    --card: #050A18;
+    --cardActive: rgba(255, 255, 255, 0.113);
     --stroke: #E0E0E0;
     --white: #ffffff;
 }
@@ -176,40 +178,48 @@ a {
 
 /* about us */
 .descAboutUs {
+    background: var(--bg);
     padding-top: 70px;
 }
 
 .descAboutUs .subTitle {
+    /* color: var(--white); */
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 700;
 }
 
 .descAboutUs .desc {
+    color: var(--gray);
     font-size: 16px;
     line-height: 35px;
 }
 
 /* Trainers */
 .trainers {
+    color: white;
+    background: var(--bg);
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .trainers .cardTrainers {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 26px;
-    border: 1px;
-    width: 340px;
-    border-style: solid;
-    border-color: #E0E0E0;
+    width: 28%;
     border-radius: 4px;
+    /* background: var(--cardActive); */
+    background: rgba(255, 255, 255, 0.113);
+    /* background: rgb(255, 255, 255); */
+    /* color: white; */
 }
 
 .trainers .cardTrainerProfile {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .trainers .subTitle {
+    /* color: var(--white); */
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 700;
@@ -221,7 +231,7 @@ a {
 
 .trainers .cardTrainerProfileTitle .name {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .trainers .cardTrainerProfileTitle .medal {
@@ -231,50 +241,49 @@ a {
 }
 
 .trainers .cardTrainerInfo {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
-.trainers .info .title {
+.trainers .cardInfo .title {
     font-size: 16px;
     font-weight: 500;
+    color: var(--gray) !important;
 }
 
-.trainers .info .desc {
+.trainers .cardInfo .desc {
     font-size: 16px;
     font-weight: 600;
 }
 
 .trainers .btnDetails {
-    padding: 14px 100px;
-    width: 100%;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background: blue;
-    border-radius: 4px;
+    width: 100% !important;
 }
 
 
 /* Galeries */
 .galeries {
-    padding-top: 70px;
-}
-
-.galeries .kegiatan {
-    width: 295px;
-    height: 295px;
+    background: var(--bg);
+    color: white;
 }
 
 .galeries .subTitle {
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 700;
+    color: white;
 }
 
-.galeries .card {
-    margin-bottom: 20px;
+.galeries img{
+    height: 50%;
 }
+
+.galeries .cardImageWrapper{
+    background: rgba(255, 255, 255, 0.113);
+    padding: 20px 20px;
+    border-radius: 4px;
+}
+
+
 
 /* INFO */
 .info{
@@ -436,113 +445,161 @@ a {
 }
 /* NUTRITION */
 
-.Nutrion h3{
-    margin-top: 70px;
+.Nutrion{
+    background: var(--bg);
+}
+
+.Nutrion img{
+    /* padding: 10px; */
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.Nutrion h3 {
+    padding-top: 70px;
     margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
 }
 
-.Nutrion h4{
-    margin-top: 25px !important;
-}
-
-.Nutrion .container .card {
+.Nutrion .card{
+    background: var(--cardActive);
+    width: 22%;
     border-radius: 4px;
-    border: 1px solid #E0E0E0;
-    width: 310px;
+    padding: 10px;
+    transition: .3s;
 }
 
-.Nutrion .cardHeader{
-    padding: 10px;
-    padding-bottom: 0 !important;
+.Nutrion .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: .3s;
+    background: var(--card);
 }
 
 .Nutrion .cardBody{
-    padding-top: 0  !important;
-    padding: 20px;
+    padding: 10px;
 }
 
-.Nutrion .card p {
-    margin-top: 20px;
-    color: #383838;
-    margin-bottom: 20px !important;
+.Nutrion .card h4{
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
 }
 
-.Nutrion .card img {
-    width: 100%;
+.Nutrion .card p{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--gray);
+    margin-bottom: 20px;
 }
 
-.color-blue {
-    color: blue;
+.Nutrion .card a{
+    color: var(--blue);
+    font-weight: 600;
 }
+
+.Nutrion .cardWrapper{
+  margin-bottom: 30px;
+}
+
  
 /* Clasess */
 
+.head{
+    background-color: var(--card);
+}
+
 .head .container {
-    background-color: var(--gray);
-    height: 240px;
-    width: 100%;
+    /* height: 240px; */
     padding-top: 40px;
 }
 
 .head h1 {
-    font-size: 55px;
-    margin-bottom: 100px;
+    font-size: 45px;
+    margin-bottom: 70px;
+    color: white;
 }
 
 .head .nav-list a {
     font-size: 20px;
     font-weight: 600;
+    padding: 15px 40px;
+    border-bottom: var(--card) 5px solid;
+    transition: .3s;
+    color: var(--gray);
+    font-weight: 400;
 }
 
 .head .nav-list a:hover {
-    text-decoration: underline;
     color: var(--blue);
+    transition: .3s;
+    border-bottom: var(--blue) 5px solid;
+}
+
+.navlistActive{
+    border-bottom: var(--blue) 5px solid !important;
+    color: var(--blue) !important;
+    font-weight: bold !important;
 }
 
 /* Main */
 
 .main-list {
-    margin-top: 50px;
+    color: white;
+    padding-top: 50px;
+    background: var(--bg);
 }
 
 .main-list .container .card {
-    width: 295px;
-    border: 1px solid var(--bg);
+    background: var(--cardActive);
     border-radius: 5px;
     margin-bottom: 20px;
+    transition: .3s;
+}
+
+.main-list .container .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: .3s;
+    background: var(--card);
 }
 
 .main-list .card img {
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0 !important;
+    border-radius: 4px;
 }
 
-.main-list .card :not(img, span) {
-    margin-left: 20px !important;
+
+.main-list .paket{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
-.main-list .card h4 {
-    text-align: left;
+.main-list .mentor{
+    margin-top: 5px;
 }
 
-.main-list .card p {
-    margin-top: -15px;
+.main-list .jadwal{
+    color: var(--gray);
+    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
-.main-list .card h3 {
-    margin: 20px 0;
+
+.main-list .hari{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-list .cardBody{
+    padding: 20px;
 }
 
 /* End Clasess */
-    /* padding: 15px 40px;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background: blue;
-} */
 
 .members .hr {
     height: 2px;
@@ -587,41 +644,107 @@ a {
     margin-top: 30px;
 }
 
-/* About Us */
+/* Contact Us */
+.contact{
+    background: var(--bg);
+    margin-bottom: 2000px;
+}
 
-.kontenH, .kontenK{
+.contact .content{
+    width: 65%;
+    margin-right: 20px;
+}
+.contact .content h3, .contact .content2 h3{
     font-size: 30px;
-    font-weight: bold;
-    border: 1px black;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.contact .formWrapper{
+    background: var(--card);
     padding: 40px;
 }
-
-.inbox, inbox2{
+.contact .formWrapper h4{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contact input{
+    height: 48px;
+    width: 345px;
+    outline: var(--blue);
+    border: none;
+    padding-left: 20px;
     font-size: 16px;
-    font-weight: bold;
+    border-radius: 4px;
 }
 
-.isiPesan{
-    width: 100px;
-    height: 100px;
+.contact .content .inputWrapper{
+    justify-content: space-between;
 }
 
-.usubs{
+.contact .radio{
+    background: var(--cardActive);
+    padding: 15px 33px;
+    border-radius: 4px;
+}
+
+.contact .radio p{
+    color: white;
+}
+
+.contact .radioWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .inputWrapper2, .contact .inputWrapper3{
+    margin-top: 40px;
+}
+
+.contact .inputWrapper3 textarea{
+    border-radius: 4px;
+    padding: 15px;
+    color: var(--black);
     font-size: 16px;
-    font-weight: normal;
+    border: none;
 }
 
-.inbox22{
-    font-size: 16px;
-    font-weight: normal;
+.contact .content2{
+    width: 30%;
 }
 
-.inbox4{
-    font-size: 16px;
-    font-weight: normal;
+.contact .content2 p{
+    margin-top: 4px;
+    
 }
 
-.contact .kontakcs{
+.contact .content2 h4{
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.contact .content2 p{
+    color: var(--gray);
+}
+
+.contact .content2 img{
+    margin-right: 15px;
+}
+
+.contact .content2 .sosmedWrapper{
+    margin-bottom: 30px;
+}
+
+.contact .kontakWrapper{
+    background: var(--card);
+    padding: 40px;
+    padding-right: 0;
+}
+
+/* .contact .kontakcs{
     border: solid 1px #C3C3C3;
     padding: 40px;
     margin-top: 10px;
@@ -691,7 +814,7 @@ a {
 
 .contact{
     margin-top: 70px;
-}
+} */
 
 /* FOOTER */
 .footer{

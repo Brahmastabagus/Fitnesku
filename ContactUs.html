@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +11,20 @@
     </style>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-     <!-- NAVIGASI -->
+    <!-- NAVIGASI -->
     <section class="navigasi">
         <div class="container">
             <div class="content">
                 <div class="d-flex align-items-center justify-content-between">
                     <img src="./asssets/Mengfitness.png" alt="">
                     <div class="d-flex">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Classes</a>
-                        <a href="#">Nutrion</a>
-                        <a href="#">Contact Us</a>
+                        <a href="index.html">Home</a>
+                        <a href="aboutUs.html">About Us</a>
+                        <a href="classes.html">Classes</a>
+                        <a href="nutrition.html">Nutrion</a>
+                        <a class="navActive" href="ContactUs.html">Contact Us</a>
                     </div>
                     <button class="myButton">Sign in</button>
                 </div>
@@ -30,21 +32,105 @@
         </div>
     </section>
     <!-- END NAVIGASI -->
-    
-<!-- HERO -->
-<section class="hero  d-flex justify-content-center">
-    <div class="container">
-        <div class="content">
-            <h1> Contact Us</h1>
-            <div class="heroTitle"></div>
+
+    <!-- HERO -->
+    <section class="hero  d-flex justify-content-center">
+        <div class="container">
+            <div class="content">
+                <h1> Contact Us</h1>
+                <div class="heroTitle"></div>
+            </div>
         </div>
-    </div>
-</section>
-<!-- END HERO -->
+    </section>
+    <!-- END HERO -->
 
     <section class="contact">
-        <!-- About Us -->
-        <section class="kntk">
+        <div class="container">
+            <div class="contentWrapper d-flex">
+                <div class="content">
+                    <h3>Kontak Kami</h3>
+                    <div class="formWrapper">
+                        <div class="inputWrapper d-flex">
+                            <div>
+                                <h4>Nama</h4>
+                                <input placeholder="type here.." type="text">
+                            </div>
+                            <div>
+                                <h4>Mail</h4>
+                                <input placeholder="type here.." type="text">
+                            </div>
+                        </div>
+                        <div class="inputWrapper2">
+                            <h4>Subject</h4>
+                            <div class="radioWrapper">
+                                <div class="radio">
+                                    <div>
+                                        <p>Web Ngebug</p>
+                                    </div>
+                                </div>
+                                <div class="radio">
+                                    <div>
+                                        <p>Web Ngeleg</p>
+                                    </div>
+                                </div>
+                                <div class="radio">
+                                    <div>
+                                        <p>Web Ngecrash</p>
+                                    </div>
+                                </div>
+                                <div class="radio">
+                                    <div>
+                                        <p>Web NgeGlitch</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputWrapper3">
+                            <h4>Messages</h4>
+                            <textarea placeholder="type here.." name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <button style="margin-top: 50px;" class="myButton">Send</button>
+                    </div>
+                </div>
+                <div class="content2">
+                    <h3>Kontak Kami</h3>
+                    <div class="kontakWrapper">
+                        <div class="d-flex align-items-center sosmedWrapper">
+                            <img src="./asssets/iconSosmed2.svg" alt="">
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>@mengfitness</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sosmedWrapper">
+                            <img src="./asssets/iconSosmed3.svg" alt="">
+                            <div>
+                                <h4>Whatsapp</h4>
+                                <p>085876247840</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sosmedWrapper">
+                            <img src="./asssets/iconSosmed4.svg" alt="">
+                            <div>
+                                <h4>Email</h4>
+                                <p>mengfitness@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sosmedWrapper">
+                            <img src="./asssets/iconSosmed.svg" alt="">
+                            <div>
+                                <h4>Location</h4>
+                                <p>Purwokerto, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="contact"> -->
+    <!-- About Us -->
+    <!-- <section class="kntk">
             <div class="container d-flex">
                 <div class="content">
                     <div>
@@ -120,6 +206,7 @@
                 </div>
             </div>
     </section>
-    </section>
+    </section> -->
 </body>
+
 </html>
