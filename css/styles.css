@@ -575,15 +575,13 @@ a {
     font-size: 20px;
     font-weight: 600;
     padding: 15px 40px;
-    border-bottom: var(--card) 5px solid;
-    transition: .3s;
+    border-bottom: none 5px solid;
     color: var(--gray);
     font-weight: 400;
 }
 
 .head .nav-list a:hover {
     color: var(--blue);
-    transition: .3s;
     border-bottom: var(--blue) 5px solid;
 }
 
