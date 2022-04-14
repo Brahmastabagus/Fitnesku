@@ -19,7 +19,7 @@
 
 <body>
     <!-- NAVIGASI -->
-    <section class="navigasi">
+    <section class="navigasi navColor">
         <div class="container">
             <div class="content">
                 <div class="d-flex align-items-center justify-content-between">
@@ -43,12 +43,12 @@
         <div class="container">
             <h1 class="text-center">Cari Kelas yang Anda Butuhkan</h1>
             <div class="d-flex justify-content-between nav-list">
-                <a href="#" class="color-black navlistActive">Zumba</a>
-                <a href="#" class="color-black">Pole Dance</a>
-                <a href="#" class="color-black">Yoga</a>
-                <a href="#" class="color-black">Muay Thai</a>
-                <a href="#" class="color-black">Pilates</a>
-                <a href="#" class="color-black">Sh'bam</a>
+                <a onclick="myFunction(1)" href="#" class="color-black navlistActive">Zumba</a>
+                <a onclick="myFunction(2)" id="pole" href="#" class="color-black">Pole Dance</a>
+                <a onclick="myFunction(3)" id="yoga" href="#" class="color-black">Yoga</a>
+                <a onclick="myFunction(4)" id="muay" href="#" class="color-black">Muay Thai</a>
+                <a onclick="myFunction(5)" id="pilates" href="#" class="color-black">Pilates</a>
+                <a id="shbam" href="#" class="color-black">Sh'bam</a>
             </div>
         </div>
     </section>
@@ -60,7 +60,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -70,7 +70,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -80,7 +80,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -90,7 +90,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -102,7 +102,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -112,7 +112,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -122,7 +122,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -132,7 +132,7 @@
             <div class="card">
                 <img src="./asssets/listIMG1.png" alt="List Classes" title="List Classes">
                 <div class="cardBody">
-                    <h4 class="paket">Paket Zumba 1</h4>
+                    <h4 id="paket" class="paket">Paket Zumba 1</h4>
                     <p class="mentor">Mentor, <span class="color-blue">Daffa Raihan Zaki</span></p>
                     <p class="jadwal">Jadwal Kelas:</p>
                     <p class="hari">Senin, Selasa, Rabu, Kamis</p>
@@ -198,7 +198,7 @@
         </div>
     </section>
     <!-- END FOOTER-->
-    <!-- <script src="./js/script.js"></script> -->
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
